@@ -1,0 +1,100 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+html{
+    font-size:62.5%;
+    background-color: pink;
+    background-image: url('https://i.imgur.com/a8deGzU.jpg');
+    background-size: 1000px;
+  }
+
+  section{
+    width: 1000px;
+    height: 1000px;
+
+
+  }
+body{
+  text-align: center;
+    margin:1%;
+    color:white;
+font-size: 2em;
+max-width: 1000px;
+font-family: 'Crimson Text', sans-serif;
+
+
+}
+
+#monthyouwere{
+  font-size:4.5rem;
+    letter-spacing:.15rem;
+    color:white;
+    float: left;
+    padding-left: 150px;
+    margin-top: 70px;
+}
+h1{
+  float: left;
+  width: 641px;
+  margin-left: 150px;
+  height: 100px;
+  font-size: 3em;
+  margin-top: 175px;
+
+
+}
+#monthSelected{
+  float: left;
+  width: 641px;
+  margin-left: 150px;
+  height: 100px;
+  font-size: 2.5em;
+  padding-left: 200px;
+}
+label{
+  float: left;
+  font-size:4.5rem;
+    letter-spacing:.15rem;
+    color:white;
+    float: left;
+    padding-left: 150px;
+
+}
+#day{
+  float: left;
+  width: 641px;
+  margin-left: 150px;
+  height: 100px;
+  font-size: 2.5em;
+  padding-left: 300px;
+}
+button{
+  float: left;
+  width: 641px;
+  margin-left: 150px;
+  height: 100px;
+  font-size: 2.5em;
+  background-color: purple;
+}
+p{
+  float: left;
+  width: 641px;
+  margin-left: 150px;
+  height: 100px;
+  font-size: 2.5em;
+  
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
